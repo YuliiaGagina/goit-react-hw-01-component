@@ -1,6 +1,7 @@
 {
-  "compilerOptions": {
-    "baseUrl": "src"
+  "compilerOpyions": {
+      "baseUrl": "src"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "css.lint.unknownAtRules": "ignore"
 }

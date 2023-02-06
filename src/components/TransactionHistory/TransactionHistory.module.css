@@ -1,0 +1,25 @@
+.transWrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.transactionHistory{
+    width: 900px;
+    margin: 0 auto;
+    
+    border: 1px solid rgb(185, 184, 184);
+    box-shadow: 2px 1px 3px black;
+    margin-bottom: 60px;
+}
+.thead{
+    height: 40px;
+    background-color:rgb(22, 171, 235);
+    color: white;
+}
+.tbody{
+    text-align: center;
+    height: 40px;
+}
+.eachline:nth-child(2n){
+    background-color:rgb(227, 232, 234);
+}
+
