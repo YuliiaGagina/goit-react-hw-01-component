@@ -3,7 +3,7 @@ import css from './Statistics.module.css';
 import randomColor from 'randomcolor';
 import { SectionWrap, Title, List, Item } from './Statistics.styled';
 
-let color = randomColor();
+let color = randomColor()
 
 const Statistics = props => {
   return (
