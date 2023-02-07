@@ -8,7 +8,7 @@ import { SectionWrap, Title, List, Item } from './Statistics.styled';
 const Statistics = props => {
   return (
     <SectionWrap>
-      <Title>{props.tittle ? props.tittle : null}</Title>
+     {props.title &&  <Title>{props.tittle}</Title> }
       <List>
         {props.stats.map(state => (
           <Item  key={state.id}>
