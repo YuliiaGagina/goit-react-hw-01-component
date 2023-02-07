@@ -29,13 +29,15 @@ const TransactionHistory = ({items}) =>{
 };
 
 TransactionHistory.propTypes = {
-   items: PropTypes.exact({
-        id: PropTypes.string,
-        type: PropTypes.string,
-        amount: PropTypes.string,
-        currency: PropTypes.string,
-    
-    })
+   items: PropTypes.arrayOf( 
+    PropTypes.exact({
+    id: PropTypes.string,
+    type: PropTypes.string,
+    amount: PropTypes.string,
+    currency: PropTypes.string,
+    }),
+   )
 }
+
 
 export default TransactionHistory;
