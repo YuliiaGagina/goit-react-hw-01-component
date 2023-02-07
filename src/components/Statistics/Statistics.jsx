@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-import randomColor from 'randomcolor';
+
 import { SectionWrap, Title, List, Item } from './Statistics.styled';
 
-let color = randomColor();
+
 
 const Statistics = props => {
   return (
@@ -11,7 +11,7 @@ const Statistics = props => {
       <Title>{props.tittle ? props.tittle : null}</Title>
       <List>
         {props.stats.map(state => (
-          <Item style={{ backgroundColor: color }} key={state.id}>
+          <Item  key={state.id}>
             <span>{state.label}</span>
             <span>{state.percentage}%</span>
           </Item>
